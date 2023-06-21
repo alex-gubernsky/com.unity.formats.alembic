@@ -220,7 +220,7 @@ MonoBehaviour:
     supportTerrainHole: 0
     supportRayTracing: 0
     lightLoopSettings:
-      cookieAtlasSize: 1024
+      cookieAtlasSize: 2048
       cookieFormat: 74
       pointCookieSize: 128
       cubeCookieTexArraySize: 16
