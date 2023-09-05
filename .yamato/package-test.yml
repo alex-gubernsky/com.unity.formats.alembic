@@ -17,7 +17,7 @@ test_{{ platform.name }}_{{ editor.version }}:
   commands:
      - npm install upm-ci-utils@stable -g --registry https://artifactory.prd.cds.internal.unity3d.com/artifactory/api/npm/upm-npm
 {% if editor.version == '2020.3' %}
-     - upm-ci package test --unity-version b805b124c6b7 --package-path com.unity.formats.alembic
+     - upm-ci package test --unity-version fd1202656a51 --package-path com.unity.formats.alembic
 {% endif %}
   artifacts:
     logs:
