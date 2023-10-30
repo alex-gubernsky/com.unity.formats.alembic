@@ -556,7 +556,8 @@ namespace UnityEditor.Formats.Alembic.Importer
         {
             int submeshCount = 0;
             var meshFilter = node.gameObject.GetComponent<MeshFilter>();
-            if (meshFilter != null)
+
+            if (meshFilter != null && meshFilter.sharedMesh != null)
             {
                 var m = meshFilter.sharedMesh;
                 submeshCount = m.subMeshCount;
